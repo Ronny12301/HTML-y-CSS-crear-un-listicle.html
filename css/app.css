@@ -1,0 +1,126 @@
+
+header{
+    background-image: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3)), url("https://imgs.search.brave.com/kOVnGYrDdJty-7a54Q6yC9mHWoap2t10EUhxVcceaGk/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9jb25j/ZXB0by5kZS93cC1j/b250ZW50L3VwbG9h/ZHMvMjAxNS8wMy9z/b2Z0d2FyZS0xLWUx/NTUwMDgwMDk3NTY5/LmpwZw");
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+}
+
+hr{
+    line-height: 10px;
+    color: #e6e6e6;
+    
+}
+
+#titulo{
+    font-family:'Roboto Slab', serif;
+    font-style: normal;
+    font-size: 36px;
+    color:white;
+    text-align: center;
+    max-width: 780px;
+}
+    
+#perfil{
+    display: flex;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    width: 66%;
+}
+
+#fotoperfil{
+    background-image: url("https://avatars.githubusercontent.com/u/100802754?v=4");
+    background-size: cover;
+    background-position: center;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    margin-top: -50px;
+    border: 1px solid white;
+}
+
+#datosperfil{
+    font-family: 'Source Sans Pro', serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#actualizacion{
+    font-family: italic;
+    color:rgb(51, 51, 51);
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 60px;
+}
+
+img {
+    height: 500px;
+}
+
+body{
+    margin: 0;
+}
+
+#titulo-tema h1{
+    font-family: 'Source Sans Pro', serif;
+    font-weight: bold;
+    display: inline;
+    font-size: 36px;
+    background-color: transparent;   
+    width: 10px;    
+}
+
+.tarjeta {
+    font-size: 36px;
+    color: rgb(51,51,51);  
+}
+
+.numero {
+    color:rgb(0,0,0,0.25);
+    position: relative;
+    left: 0;
+    margin-right: 40px;
+}
+
+
+.enlacediseño{
+    text-decoration: none;
+    color: #42b4d6;
+    CURSOR: hand;
+    font-style: normal;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+}
+
+a:hover {
+    color: orange;
+    text-decoration:underline;
+}
+
+.descripcion{
+    margin-left: 75px;
+}
+
+img{
+    width: 100%;
+    height: 500px;
+    margin-bottom: 120px;
+    border: 2px solid darkred;
+    background-color:darkred;
+}
+
+p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    line-height: 32px;
+    color: rgb(51,51,51);
+    margin-bottom: 20px;
+}
